@@ -53,7 +53,6 @@ Upload to GitHub Pages for free hosting.
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
     <meta charset="UTF-8">
     <title>Arunkumar S A | Portfolio</title>
     <link rel="stylesheet" href="style.css">
@@ -61,6 +60,7 @@ Upload to GitHub Pages for free hosting.
 <body>
 
 <header>
+    <img src="profile.png.jpeg" class="profile-pic">
     <h1>Arunkumar S A</h1>
     <p>Information Technology Student | Programmer</p>
 </header>
@@ -68,7 +68,7 @@ Upload to GitHub Pages for free hosting.
 <section class="about">
     <h2>About Me</h2>
     <p>
-        I am a Information Technology student interested in C programming,
+        I am an Information Technology student interested in C programming,
         Java, and problem solving. I enjoy learning new technologies
         and building simple projects.
     </p>
@@ -87,19 +87,16 @@ Upload to GitHub Pages for free hosting.
 
 <section class="projects">
     <h2>Projects</h2>
-
     <div class="project-card">
         <h3>Sports Club Management System</h3>
-        <p>Developed using php to manage sports records.</p>
+        <p>Developed using PHP to manage sports records.</p>
     </div>
-
-    </section>
+</section>
 
 <section class="contact">
     <h2>Contact</h2>
     <p>Email: arunkumar20050515@gmail.com</p>
-    <p>Contact:9042773295</p>
-    
+    <p>Contact: 9042773295</p>
 </section>
 
 <footer>
@@ -113,82 +110,66 @@ Upload to GitHub Pages for free hosting.
 ```
 #style.css
 ```
-* {
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
-body {
     background-color: #f4f4f4;
     color: #333;
 }
 
-/* Header */
 header {
     background-color: #222;
-    color: white;
+    color: #fff;
     text-align: center;
-    padding: 30px 10px;
+    padding: 30px 20px;
 }
 
-header h1 {
-    font-size: 36px;
-}
-
-header p {
-    font-size: 18px;
-    margin-top: 10px;
-}
-
-/* Sections */
-section {
-    background: white;
-    margin: 20px auto;
-    padding: 20px;
-    width: 80%;
-    border-radius: 8px;
-}
-
-section h2 {
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #fff;
     margin-bottom: 15px;
+}
+
+section {
+    background: #fff;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+h2 {
     color: #222;
 }
 
-/* Skills */
 .skills ul {
     list-style-type: square;
-    margin-left: 20px;
+    padding-left: 20px;
 }
 
-/* Projects */
 .project-card {
-    background-color: #eee;
-    padding: 15px;
-    margin-bottom: 10px;
+    background: #f9f9f9;
+    padding: 10px;
     border-left: 5px solid #222;
 }
 
-/* Contact */
-.contact p {
-    margin: 5px 0;
-}
-
-/* Footer */
 footer {
-    text-align: center;
-    padding: 15px;
     background-color: #222;
-    color: white;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
 }
 
 
 ```
 ## OUTPUT
-<img width="1909" height="950" alt="Screenshot 2026-02-02 091329" src="https://github.com/user-attachments/assets/6dd188bb-2840-43c5-bee3-a3d3ec70d247" />
+<img width="1919" height="976" alt="Screenshot 2026-02-02 103549" src="https://github.com/user-attachments/assets/d58827e3-6ecd-4593-a54f-fc324ff6ff1b" />
 
-<img width="1914" height="950" alt="Screenshot 2026-02-02 091433" src="https://github.com/user-attachments/assets/3202160d-5722-4d9b-87f3-89e6891535d1" />
+<img width="1919" height="963" alt="Screenshot 2026-02-02 095054" src="https://github.com/user-attachments/assets/f1f3b94e-e9d6-4ebe-8df0-eae8aac31219" />
+
 
 ## RESULT
 The program for creating Portfolio using HTML and CSS is executed successfully.
